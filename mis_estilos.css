@@ -1,0 +1,267 @@
+* {
+	margin: .2%;
+	padding: .2%;
+	border: 0px solid #000000;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+div {
+	
+}
+header
+{
+	border: 3px solid #145A32;
+	padding:3px;
+	margin:.5%;
+
+	background-position:  center center;
+  	background-repeat: no-repeat;
+  	background-image: url(LogoComercial.png);
+  	background-size: auto 100%;
+  	height: 200px;
+}
+header:hover{
+    background-size: auto 95%;
+}
+.w3-teal{
+	border: 0px solid #ffffff;
+	padding:0px;
+	margin:.0%;
+}
+footer{
+	height: 20px;
+}
+
+ #miformulario{
+	padding:15px 15px;
+ }
+ #totales{
+	float:right;
+	padding:5px 5px;
+ }
+ #totales label{
+	 display:inline-block;
+	 width:40%;
+	 float:left;
+	 clear:both;
+	 text-align:right;
+ }
+
+
+#form_box{
+	margin: 5px 5px;
+	/*border: 3px solid #FF0000;*/
+	padding: 3px;
+}
+
+ #header_form{
+/*
+	 padding:5px;
+	 font-size:medium;
+	 border: 1px solid #000000;
+	 margin:1%;*/
+ }
+.myField
+{
+
+	display:inline-block;
+	margin: 5px 15px ;
+}
+.myField label
+{
+	display:inline;
+	width:20%;
+	color:black;
+	text-align:right;
+	vertical-align:middle;
+	margin: 2px;
+	padding:2px;
+
+}
+.myField input, .myField select
+{
+	margin: 2px;
+	padding:2px;
+	border: 1px solid #000000;
+	size:300px;
+	text-transform: uppercase;
+}
+ .extracorto {
+	width:150px;
+	text-align:center;
+}
+ .corto {
+	width:250px;
+	text-align:center;
+}
+ .medio {
+	width:270px;
+}
+
+ .largo {
+	width:500px;
+}
+
+ .extralargo {
+	width:600px;
+}
+#tabla input:not(.totales){
+	width:95%;
+	text-align:center;
+}
+#tabla select{
+	width:95%;
+
+}
+ .totales{
+	width:95%;
+	text-align:right;
+ }
+#tabla td:nth-child(3) input{
+	text-align:left;
+}
+#encabezado_tabla{
+	border: 1px solid #000000;
+	text-align:center;
+	background-color: #4CAF50;
+	color:white;
+	font:bold 14px verdana, sans-serif;
+ }
+#tabla {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tabla td, #tabla th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tabla tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabla tr:hover {background-color: #ddd;}
+
+#tabla th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+
+ #pie{
+	 clear:both;
+ }
+
+#menu_box{
+	margin:0%;
+	border: 0px solid #000000;
+	background:#145A32;
+	padding:0%;
+
+}
+#menu_box li{
+	display: inline-block;
+	list-style:none;
+	margin: 1% 2%;
+	border: 0px solid #000000;
+}
+
+#menu_box li a{
+
+
+	font-family: Roboto, sans-serif;
+  	font-size: 1em;
+  	font-weight: 100;
+  	line-height: 1em;
+ 	letter-spacing: 0.4em;
+ 	color: #1d6152;
+ 	background-color: #ffffff;
+  	display: inline-block;
+  	margin-top: -0.6em;
+  	padding: 0.65em 0 0.65em 0.7em;
+  	font-weight: 700;
+}
+#menu_box ul{
+	border: 0px solid #000000;
+}
+#menu_box li a:hover{
+    color: #FFA07A;
+}
+#menu_box li:last-child{
+	float:right;
+	
+}
+#menu_box li:last-child a{
+	font-family: Roboto, sans-serif;
+  	font-size: 1em;
+  	font-weight: 100;
+  	line-height: 1em;
+ 	letter-spacing: 0.4em;
+ 	color: #1d6152;
+ 	background-color: #fff;
+  	display: inline-block;
+  	margin-top: -0.6em;
+  	padding: 0.65em 0 0.65em 0.7em;
+  	font-weight: 700;
+}
+#menu_box li:last-child a:hover{
+	color: #dd392B;
+}
+.buttonEliminar {
+ 	background-color: #186A3B; /* Green */
+  	color: white;
+  	padding: 5px 20px;
+  	text-align: center;
+  	display: inline-block;
+}
+.buttonEliminar:hover{
+    color: #ffffff;
+    background-color: #C0392B;
+ }
+.agregar{
+  	color: white;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+  
+  	padding: 5px 20px;
+  	text-align: center;
+  	display: inline-block;
+
+}
+.agregar:hover{
+    color: #ffffff;
+    background-color: #F1C40F;
+}
+.boton_personalizado{
+	font-family: Roboto, sans-serif;
+  	font-size: 1em;
+  	font-weight: 100;
+  	line-height: 1em;
+ 	letter-spacing: 0.2em;
+ 	color: #21A5A5;
+ 	background-color: #fff;
+  	display: inline-block;
+  	margin-top: -0.6em;
+  	padding: 0.65em 0 0.65em 0.7em;
+  	font-weight: 700;
+
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #21A5A5;
+    border-radius: 6px;
+    border: 2px solid #FCF3CF;
+  }
+  .boton_personalizado:hover{
+    color: #2ECC71;
+    background-color: #ffffff;
+  }
+.agregarventa{
+
+  	text-align: center;
+}
